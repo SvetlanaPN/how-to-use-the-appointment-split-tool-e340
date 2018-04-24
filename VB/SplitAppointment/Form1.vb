@@ -49,7 +49,7 @@ Namespace SplitAppointment
         End Sub
         #End Region
         #Region "MainForm_Load"
-        Private Sub MainForm_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
+        Private Sub MainForm_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
             InitData()
         End Sub
         #End Region
